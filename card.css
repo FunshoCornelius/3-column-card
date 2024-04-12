@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 70%;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+section {
+  padding: 5rem 3rem;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+section h1 {
+  color: white;
+  font-size: 5rem;
+  margin-block: 3rem;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+section p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 1.8rem;
+  margin-bottom: auto;
+  line-height: 1.6;
+}
+
+section a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #fff;
+  padding: 1em 2em;
+  border-radius: 3rem;
+  border: 1.5px solid transparent;
+}
+section a:hover {
+  background-color: transparent;
+  border: 1.5px solid #fff;
+  color: white;
+}
+section:first-child {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+
+section:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+section:last-child {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+}
